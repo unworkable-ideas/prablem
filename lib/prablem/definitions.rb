@@ -9,7 +9,7 @@ module Prablem
         product_base_version: {
           branch: 'mastablasta',
           commitish: '92389jd29jdqjdjad90oij22190u321908',
-          semantic_ver: '9.3.4', # from where?
+          last_released_semantic_ver: '9.3.4', # from where?
         },# branch+commit-ish sha(+appversion?) at time of definition
 
         description: 'https://www.github.com/org/repo/issues/99',# github issue url # evidence of the existence of the problem required at the referenced location
