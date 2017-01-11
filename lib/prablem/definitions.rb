@@ -3,7 +3,10 @@ module Prablem
     Versioned = {
       "v0.1.6" => {
         id: "#{Time.now.to_i}-Morg",# AR-Migration style timestamp+CamelCaseShortDescription
-
+        identifying_fragments: {
+          timestamp: "#{Time.now.to_i}",
+          name: "Morg"
+        },
         antecedent: "https://www.ksdaldsa.scom/3355",# i.e. ticket source / github issue parent / slack message URL # some reference that hints at the reasoning behind the necessity of this
 
         product_base_version: {
