@@ -2,12 +2,15 @@ module Prablem
   class Definitions
     Versioned = {
       "v0.1.6" => {
-        id: "#{Time.now.to_i}-Morg",# AR-Migration style timestamp+CamelCaseShortDescription
+        antecedent: "https://www.ksdaldsa.scom/XXT-156",# i.e. ticket source / github issue parent / slack message URL # some reference that hints at the reasoning behind the necessity of this
+
         identifying_fragments: {
           timestamp: "#{Time.now.to_i}",
-          name: "Morg"
+          name: "MorgOrg",
+          antec_ref: "https://www.ksdaldsa.scom/XXT-156".split('/').last.upcase
         },
-        antecedent: "https://www.ksdaldsa.scom/3355",# i.e. ticket source / github issue parent / slack message URL # some reference that hints at the reasoning behind the necessity of this
+
+        id: "#{Time.now.to_i}_MorgOrg_XXT-156",# AR-Migration style timestamp+CamelCaseShortDescription
 
         product_base_version: {
           branch: 'mastablasta',
