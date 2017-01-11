@@ -8,12 +8,12 @@ module Prablem
 
         product_base_version: {
           branch: 'mastablasta',
-          commitish: '92389jd29jdq',
-          semantic_ver: '9.3.4', 
+          commitish: '92389jd29jdqjdjad90oij22190u321908',
+          semantic_ver: '9.3.4', # from where?
         },# branch+commit-ish sha(+appversion?) at time of definition
 
-        description: '',# github issue url # evidence of the existence of the problem required at the referenced location
-        resolution: '',# github PR url # evidence of resolution required at the referenced location
+        description: 'https://www.github.com/org/repo/issues/99',# github issue url # evidence of the existence of the problem required at the referenced location
+        resolution: 'https://www.github.com/org/repo/issues/200',# github PR url # evidence of resolution required at the referenced location
 
         ## To appear programmatically in automated release notices / changelogs ## maybe required on resolve?
         human_description: 'Short sentence to describe the Product\'s problem',
