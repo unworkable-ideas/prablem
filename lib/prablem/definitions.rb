@@ -39,8 +39,6 @@ module Prablem
         #### IN PRINCIPLE THE SEMI-ARBITRARY 4 HOUR WORKTIME MAX PER BLOB SHOULD MAKE THIS REDUNDANT ####
         #### IN PRACTICE, EVERYTHING IS GROSS AND TERRIBLE ####
         time_invested_logs: [
-          timestamp: 'duration',
-          timestamp: 'duration',
           timestamp: 'duration'
         ],
 
